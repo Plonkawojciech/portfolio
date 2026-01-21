@@ -96,6 +96,9 @@ const ControlButtons = () => {
 
   // Check for collisions with text elements
   useEffect(() => {
+    // Only run on client side
+    if (typeof window === 'undefined') return;
+
     const checkCollisions = () => {
       const leftButtons = document.querySelector('[data-left-buttons]') as HTMLElement;
       const rightButtons = document.querySelector('[data-right-buttons]') as HTMLElement;

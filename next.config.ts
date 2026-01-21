@@ -20,6 +20,7 @@ const nextConfig: NextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
+  // @ts-ignore - ESLint config may not be in types for this Next.js version
   eslint: {
     ignoreDuringBuilds: true,
   },
