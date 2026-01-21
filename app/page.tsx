@@ -298,6 +298,11 @@ const ProjectRow = ({
 
   // Calculate preview position to avoid going off-screen
   const getPreviewPosition = () => {
+    // Only calculate if window is available (client-side)
+    if (typeof window === 'undefined') {
+      return { left: 0, top: 0 };
+    }
+
     const previewWidth = 400;
     const previewHeight = 300;
     const offsetX = 20;
