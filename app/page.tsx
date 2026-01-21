@@ -495,9 +495,9 @@ const Stack = ({ language }: { language: "pl" | "en" }) => {
 // Footer Component
 const Footer = ({ language }: { language: "pl" | "en" }) => {
   const socialLinks = [
-    { name: "Email", icon: Mail, href: "mailto:hello@example.com" },
-    { name: "LinkedIn", icon: Linkedin, href: "https://linkedin.com" },
-    { name: "GitHub", icon: Github, href: "https://github.com" },
+    { name: "Email", icon: Mail, href: "mailto:plonkawojtek57@gmail.com" },
+    { name: "LinkedIn", icon: Linkedin, href: "https://www.linkedin.com/in/wojciech-płonka-308596262/" },
+    { name: "GitHub", icon: Github, href: "https://github.com/Plonkawojciech" },
     { name: "Instagram", icon: Instagram, href: "https://www.instagram.com/wojtekplonka_?igsh=aDJjanh2YjkzejRw&utm_source=qr" },
   ];
 
