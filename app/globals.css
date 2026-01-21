@@ -1,26 +1,59 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* Light Theme - Colorful */
+[data-theme="light"] {
+  --background: #FFF8E7;
+  --foreground: #1A1A1A;
+  --border: #1A1A1A;
+  --accent-blue: #0047FF;
+  --accent-orange: #FF4D00;
+  --accent-pink: #FF006E;
+  --accent-green: #00FF88;
+  --accent-yellow: #FFD700;
+  --marquee-bg: #1A1A1A;
+  --marquee-text: #FFF8E7;
+  --footer-bg: #1A1A1A;
+  --footer-text: #FFF8E7;
+  --table-header-bg: #1A1A1A;
+  --table-header-text: #FFF8E7;
+}
+
+/* Dark Theme - Colorful */
+[data-theme="dark"] {
+  --background: #0A0A0A;
+  --foreground: #F5F5F5;
+  --border: #404040;
+  --accent-blue: #5B9AFF;
+  --accent-orange: #FF6B35;
+  --accent-pink: #FF4D9E;
+  --accent-green: #4DFFAA;
+  --accent-yellow: #FFE066;
+  --marquee-bg: #1A1A1A;
+  --marquee-text: #F5F5F5;
+  --footer-bg: #1A1A1A;
+  --footer-text: #F5F5F5;
+  --table-header-bg: #1A1A1A;
+  --table-header-text: #F5F5F5;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-accent-blue: var(--accent-blue);
+  --color-accent-orange: var(--accent-orange);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  border-radius: 0px !important;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
