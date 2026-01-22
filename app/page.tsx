@@ -575,7 +575,7 @@ export default function Home() {
 
       {/* Hero Section */}
       <section className="border-b" style={{ borderColor: "var(--border)" }}>
-        <div className="mx-auto max-w-7xl px-4 py-12 md:py-20 lg:py-32">
+        <div className="mx-auto max-w-7xl px-4 pt-24 pb-12 md:py-20 lg:py-32">
           <div className="grid grid-cols-1 gap-6 md:grid-cols-12 md:gap-8">
             {/* Name */}
             <motion.div
