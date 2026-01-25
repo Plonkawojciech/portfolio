@@ -66,11 +66,19 @@ const projects = [
     name: { pl: "Solvio", en: "Solvio" },
     category: { pl: "AI Development", en: "AI Development" },
     year: "2025",
-    link: "#",
+    link: "https://solvioaitracking.vercel.app",
     image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop", // Placeholder - możesz dodać screenshot Solvio
   },
   {
     id: 2,
+    name: { pl: "DriveFlow", en: "DriveFlow" },
+    category: { pl: "AI CRM", en: "AI CRM" },
+    year: "2026",
+    link: "https://car-salesman-nj4a.vercel.app",
+    image: "https://images.unsplash.com/photo-1489824904134-891ab64532f1?w=800&h=600&fit=crop",
+  },
+  {
+    id: 3,
     name: { pl: "Vision Seller", en: "Vision Seller" },
     category: { pl: "AI Development", en: "AI Development" },
     year: "2025",
@@ -78,7 +86,7 @@ const projects = [
     image: "/Visionseller.png",
   },
   {
-    id: 3,
+    id: 4,
     name: { pl: "Portfolio", en: "Portfolio" },
     category: { pl: "Web Development", en: "Web Development" },
     year: "2025",
