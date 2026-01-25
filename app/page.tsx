@@ -67,7 +67,7 @@ const projects = [
     category: { pl: "AI Development", en: "AI Development" },
     year: "2025",
     link: "https://solvioaitracking.vercel.app",
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop", // Placeholder - możesz dodać screenshot Solvio
+    image: "/solvio.png",
   },
   {
     id: 2,
@@ -75,7 +75,7 @@ const projects = [
     category: { pl: "AI CRM", en: "AI CRM" },
     year: "2026",
     link: "https://car-salesman-nj4a.vercel.app",
-    image: "https://images.unsplash.com/photo-1489824904134-891ab64532f1?w=800&h=600&fit=crop",
+    image: "/driveflow.png",
   },
   {
     id: 3,
