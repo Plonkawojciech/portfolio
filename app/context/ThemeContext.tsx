@@ -16,7 +16,7 @@ const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
 
 export function ThemeProvider({ children }: { children: ReactNode }) {
   const [theme, setTheme] = useState<Theme>("light");
-  const [language, setLanguage] = useState<Language>("pl");
+  const [language, setLanguage] = useState<Language>("en");
 
   useEffect(() => {
     // Load from localStorage

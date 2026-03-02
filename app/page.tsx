@@ -10,7 +10,7 @@ import { useTheme } from "./context/ThemeContext";
 // Translations
 const translations = {
   pl: {
-    bio: "AI Developer & Freelancer. Specjalizuję się w tworzeniu inteligentnych rozwiązań wykorzystujących sztuczną inteligencję oraz nowoczesnych interfejsów użytkownika.",
+    bio: "AI Developer & Freelancer. Buduję produkty SaaS, narzędzia AI i aplikacje mobilne. Twórca Estalo — platformy AI CRM dla agencji nieruchomości.",
     selectedWorks: "Wybrane Projekty",
     stack: "Stack",
     letsTalk: "POROZMAWIAJMY",
@@ -34,7 +34,7 @@ const translations = {
     universityYear: "Student 1 roku",
   },
   en: {
-    bio: "AI Developer & Freelancer. Specializing in creating intelligent solutions using artificial intelligence and modern user interfaces.",
+    bio: "AI Developer & Freelancer. Building SaaS products, AI tools, and mobile apps. Creator of Estalo — an AI CRM platform for real estate agencies.",
     selectedWorks: "Selected Works",
     stack: "Stack",
     letsTalk: "LET'S TALK",
@@ -92,6 +92,22 @@ const projects = [
     year: "2025",
     link: "#",
     image: "/portfolio.png",
+  },
+  {
+    id: 5,
+    name: { pl: "Estalo", en: "Estalo" },
+    category: { pl: "AI SaaS CRM", en: "AI SaaS CRM" },
+    year: "2026",
+    link: "https://estalo.pl",
+    image: "/estalo.png",
+  },
+  {
+    id: 6,
+    name: { pl: "Open-Kaap Pro", en: "Open-Kaap Pro" },
+    category: { pl: "AI Development", en: "AI Development" },
+    year: "2026",
+    link: "#",
+    image: "/open-kaap.png",
   },
 ];
 
@@ -465,10 +481,12 @@ const Stack = ({ language }: { language: "pl" | "en" }) => {
     "React",
     "TypeScript",
     "Tailwind CSS",
+    "Supabase",
+    "OpenAI",
     "Framer Motion",
     "Node.js",
     "Figma",
-    "Three.js",
+    "Capacitor",
   ];
 
   const t = translations[language];
