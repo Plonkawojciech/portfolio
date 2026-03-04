@@ -10,7 +10,7 @@ import { useTheme } from "./context/ThemeContext";
 // Translations
 const translations = {
   pl: {
-    bio: "AI Developer & Freelancer. Buduję produkty SaaS, narzędzia AI i aplikacje mobilne. Twórca Estalo — platformy AI CRM dla agencji nieruchomości.",
+    bio: "AI Developer & Founder. Buduję ekosystem produktów SaaS, AI workerów i narzędzia dla builderów. Twórca Estalo, AI Factory, Faktura AI i innych.",
     selectedWorks: "Wybrane Projekty",
     stack: "Stack",
     letsTalk: "POROZMAWIAJMY",
@@ -34,7 +34,7 @@ const translations = {
     universityYear: "Student 1 roku",
   },
   en: {
-    bio: "AI Developer & Freelancer. Building SaaS products, AI tools, and mobile apps. Creator of Estalo — an AI CRM platform for real estate agencies.",
+    bio: "AI Developer & Founder. Building an ecosystem of SaaS products, AI workers, and tools for builders. Creator of Estalo, AI Factory, Faktura AI, and more.",
     selectedWorks: "Selected Works",
     stack: "Stack",
     letsTalk: "LET'S TALK",
@@ -116,6 +116,78 @@ const projects = [
     year: "2026",
     link: "https://btlx-viewer.vercel.app",
     image: "/btlx-viewer.png",
+  },
+  {
+    id: 8,
+    name: { pl: "Solvio", en: "Solvio" },
+    category: { pl: "AI Budget App", en: "AI Budget App" },
+    year: "2026",
+    link: "https://solvioaitracking.vercel.app",
+    image: "/solvio.png",
+  },
+  {
+    id: 9,
+    name: { pl: "LearnAI", en: "LearnAI" },
+    category: { pl: "EdTech / AI Academy", en: "EdTech / AI Academy" },
+    year: "2026",
+    link: "https://learnai-platform.vercel.app",
+    image: "/learnai.png",
+  },
+  {
+    id: 10,
+    name: { pl: "Training Tinder", en: "Training Tinder" },
+    category: { pl: "Sport App", en: "Sport App" },
+    year: "2026",
+    link: "https://training-tinder-app.vercel.app",
+    image: "/training-tinder.png",
+  },
+  {
+    id: 11,
+    name: { pl: "Faktura AI", en: "Faktura AI" },
+    category: { pl: "Fintech / KSeF", en: "Fintech / KSeF" },
+    year: "2026",
+    link: "https://faktura-ai-pl.vercel.app",
+    image: "/faktura-ai.png",
+  },
+  {
+    id: 12,
+    name: { pl: "SellFlow CRM", en: "SellFlow CRM" },
+    category: { pl: "AI Sales CRM", en: "AI Sales CRM" },
+    year: "2026",
+    link: "https://sellflow-crm.vercel.app",
+    image: "/sellflow.png",
+  },
+  {
+    id: 13,
+    name: { pl: "ScaleOS", en: "ScaleOS" },
+    category: { pl: "Growth Platform", en: "Growth Platform" },
+    year: "2026",
+    link: "https://scaleos-growth.vercel.app",
+    image: "/scaleos.png",
+  },
+  {
+    id: 14,
+    name: { pl: "AdMind Marketing", en: "AdMind Marketing" },
+    category: { pl: "AI Marketing", en: "AI Marketing" },
+    year: "2026",
+    link: "https://admind-marketing.vercel.app",
+    image: "/admind.png",
+  },
+  {
+    id: 15,
+    name: { pl: "UXLens Audit", en: "UXLens Audit" },
+    category: { pl: "UI/UX Tool", en: "UI/UX Tool" },
+    year: "2026",
+    link: "https://uxlens-audit.vercel.app",
+    image: "/uxlens.png",
+  },
+  {
+    id: 16,
+    name: { pl: "Księgowy AI", en: "Księgowy AI" },
+    category: { pl: "AI Bookkeeper / KSeF", en: "AI Bookkeeper / KSeF" },
+    year: "2026",
+    link: "https://ksiegowy-ai-ksef.vercel.app",
+    image: "/ksiegowy-ai.png",
   },
 ];
 
@@ -488,13 +560,15 @@ const Stack = ({ language }: { language: "pl" | "en" }) => {
     "Next.js",
     "React",
     "TypeScript",
+    "Python / Flask",
     "Tailwind CSS",
     "Supabase",
+    "Claude AI",
     "OpenAI",
     "Framer Motion",
     "Node.js",
+    "SQLite",
     "Figma",
-    "Capacitor",
   ];
 
   const t = translations[language];
