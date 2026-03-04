@@ -71,14 +71,6 @@ const projects = [
   },
   {
     id: 2,
-    name: { pl: "DriveFlow", en: "DriveFlow" },
-    category: { pl: "AI CRM", en: "AI CRM" },
-    year: "2026",
-    link: "https://car-salesman-nj4a.vercel.app",
-    image: "/driveflow.png",
-  },
-  {
-    id: 3,
     name: { pl: "Vision Seller", en: "Vision Seller" },
     category: { pl: "AI Development", en: "AI Development" },
     year: "2025",
@@ -86,7 +78,7 @@ const projects = [
     image: "/Visionseller.png",
   },
   {
-    id: 4,
+    id: 3,
     name: { pl: "Portfolio", en: "Portfolio" },
     category: { pl: "Web Development", en: "Web Development" },
     year: "2025",
@@ -94,7 +86,7 @@ const projects = [
     image: "/portfolio.png",
   },
   {
-    id: 5,
+    id: 4,
     name: { pl: "Estalo", en: "Estalo" },
     category: { pl: "AI SaaS CRM", en: "AI SaaS CRM" },
     year: "2026",
@@ -102,12 +94,28 @@ const projects = [
     image: "/estalo.png",
   },
   {
-    id: 6,
+    id: 5,
     name: { pl: "Open-Kaap Pro", en: "Open-Kaap Pro" },
     category: { pl: "AI Development", en: "AI Development" },
     year: "2026",
     link: "#",
     image: "/open-kaap.png",
+  },
+  {
+    id: 6,
+    name: { pl: "AI Factory", en: "AI Factory" },
+    category: { pl: "AI Development", en: "AI Development" },
+    year: "2026",
+    link: "https://ai-factory-landing.vercel.app/",
+    image: "/ai-factory.png",
+  },
+  {
+    id: 7,
+    name: { pl: "BTLX Viewer", en: "BTLX Viewer" },
+    category: { pl: "Web Development", en: "Web Development" },
+    year: "2026",
+    link: "https://btlx-viewer.vercel.app",
+    image: "/btlx-viewer.png",
   },
 ];
 
